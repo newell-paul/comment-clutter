@@ -1,3 +1,5 @@
+![More Comments ≠ Better Code](assets/banner.png)
+
 # comment-clutter
 
 Does the next AI session believe a stale comment over the code? Companion repo for *Your Code Comments Are Prompts Now*.
