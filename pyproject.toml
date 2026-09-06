@@ -1,0 +1,23 @@
+[project]
+name = "comment-clutter"
+version = "0.1.0"
+description = "Benchmark: do stale AI-left comments propagate errors into later coding sessions?"
+authors = [
+    { name = "Paul Newell", email = "newell.paul@ymail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.4.0",
+    "inspect-ai>=0.3.263",
+    "openai>=3.8.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.6",
+]
